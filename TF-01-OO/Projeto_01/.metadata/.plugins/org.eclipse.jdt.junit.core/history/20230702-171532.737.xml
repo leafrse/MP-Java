@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="jUnit" project="TP02" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="JUnit.jUnit" time="0.028" displayname="jUnit" uniqueid="[engine:junit-jupiter]/[class:JUnit.jUnit]">
+    <testcase name="testeCadastroSeringa" classname="JUnit.jUnit" time="0.028" displayname="testeCadastroSeringa()" uniqueid="[engine:junit-jupiter]/[class:JUnit.jUnit]/[method:testeCadastroSeringa()]"/>
+  </testsuite>
+</testrun>

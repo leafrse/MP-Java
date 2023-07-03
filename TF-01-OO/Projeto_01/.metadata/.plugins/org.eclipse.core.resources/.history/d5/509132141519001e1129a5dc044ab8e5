@@ -1,0 +1,34 @@
+package JUnit;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+import Controle.*;
+
+ class jUnit {
+	 Controle controle = new Controle();
+	 Dados dados = new Dados();
+	 
+	 
+	 @Test
+	 void testeCadastroSeringa() {
+		 String[] novaP = new String[7];
+	
+		 
+		 novaP[0] ="0";
+		 novaP[1] ="Medix";
+		 novaP[2] ="Seringa descatavel para Insulina";
+		 novaP[3] ="40028922";
+		 novaP[4] ="2.0";
+		 novaP[5] ="0";
+		 novaP[6] ="18.0";
+		 novaP[7] ="0.1";
+		 
+		 assertTrue(controle.inserirEditarSeringa(novaP));
+		 
+		 
+	 }
+	 void testeExcluirSeringa() {
+		 assertTrue(controle.removerSeringa(0));
+	 }
+
+}
